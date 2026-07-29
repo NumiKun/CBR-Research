@@ -1,30 +1,69 @@
-# CBR Research
+<div align="center">
+  <h1>🧠 CBR Research Project</h1>
+  <p><i>Penelitian Eksperimental menggunakan metode Case-Based Reasoning (CBR)</i></p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version" />
+    <img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg" alt="Jupyter Notebook" />
+    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status Active" />
+  </p>
+</div>
 
-Repositori ini berisi kode, dataset, dan eksperimen terkait penelitian (research) yang menggunakan metode *Case-Based Reasoning (CBR)* atau penelitian CBR lainnya.
+---
 
-## Struktur Direktori
+## 📖 Tentang Proyek
 
-Berikut adalah penjelasan mengenai struktur direktori pada repositori ini:
+Repositori ini berisi kode sumber, dataset, serta catatan eksperimen yang berfokus pada pendekatan **Case-Based Reasoning (CBR)**. Proyek ini bertujuan untuk menyediakan pipeline eksperimen yang bersih dan terstruktur.
 
-- **`Dataset/`**: Berisi dataset yang digunakan untuk eksperimen. Dataset utama yang di-track pada Git adalah:
-  - `dataset.xlsx`
-  - `dataset_augmented.xlsx`
-  *(File dataset lainnya dalam folder ini diabaikan oleh Git sesuai dengan konfigurasi `.gitignore`)*
-- **`Paper Sumber/`**: Berisi makalah (paper), jurnal, atau referensi literatur yang menjadi acuan penelitian. *(Seluruh file di dalam folder ini tidak di-track oleh Git)*
-- **`Program/`**: Berisi kode sumber, script, dan Jupyter Notebook penelitian.
-  - `CBR_Research_Clean.ipynb`: Notebook utama yang berisi proses eksperimen, pemodelan, atau analisis data.
-  - `augmentasi_random_deletion.py`: Script Python yang digunakan untuk melakukan augmentasi data (teknik *random deletion*).
+---
 
-## Cara Menjalankan
+## 📂 Struktur Direktori
 
-1. Pastikan dependensi Python seperti `pandas`, `numpy`, `scikit-learn`, `jupyter`, dan library relevan lainnya telah terinstal.
-2. Jalankan script augmentasi data jika membutuhkan dataset yang telah di-augmentasi:
-   ```bash
-   cd Program
-   python augmentasi_random_deletion.py
-   ```
-3. Buka dan jalankan seluruh sel (cell) di dalam `CBR_Research_Clean.ipynb` menggunakan Jupyter Notebook atau Jupyter Lab untuk melihat analisis dan hasil riset.
+Berikut adalah panduan struktur utama dalam repositori ini agar Anda mudah bernavigasi:
 
-## Lisensi
+| Folder / Direktori | Deskripsi | Status Track Git |
+| :--- | :--- | :--- |
+| 📁 **`Dataset/`** | Menyimpan dataset yang digunakan untuk eksperimen. | Terbatas (`dataset.xlsx` & `dataset_augmented.xlsx`) |
+| 📁 **`Paper Sumber/`** | Referensi, jurnal, & literatur utama pendukung riset. | ❌ *Diabaikan seluruhnya (Ignored)* |
+| 📁 **`Program/`** | Source code, skrip analitik, & algoritma CBR. | ✅ *Dilacak sepenuhnya* |
 
-Silakan sesuaikan lisensi dan batasan penggunaan untuk repositori ini.
+### 🛠️ File Utama (dalam `Program/`)
+- 📓 **`CBR_Research_Clean.ipynb`** — *Jupyter Notebook utama yang mencakup seluruh alur eksperimen, pemodelan, dan analisis hasil riset.*
+- 🐍 **`augmentasi_random_deletion.py`** — *Skrip Python terdedikasi untuk teknik augmentasi data (Metode Random Deletion).*
+
+---
+
+## 🚀 Panduan Memulai (Getting Started)
+
+Ikuti langkah-langkah di bawah ini untuk menjalankan program di komputer Anda:
+
+### 1. Persiapan Dependensi
+Pastikan Python telah terinstal, lalu pasang library pendukung yang diperlukan:
+```bash
+pip install pandas numpy scikit-learn jupyter
+```
+
+### 2. Eksekusi Augmentasi Data (Opsional)
+Jika Anda ingin men-generate dataset augmentasi yang baru, jalankan skrip berikut:
+```bash
+cd Program
+python augmentasi_random_deletion.py
+```
+
+### 3. Eksplorasi Eksperimen
+Buka Jupyter Notebook untuk berinteraksi langsung dengan data dan melihat hasil pemodelan:
+```bash
+jupyter notebook Program/CBR_Research_Clean.ipynb
+```
+*(atau jalankan melalui VS Code / Jupyter Lab)*
+
+---
+
+## 📄 Lisensi
+
+Silakan sesuaikan lisensi penggunaan proyek ini dengan kebutuhan riset atau publikasi Anda.
+
+<div align="center">
+  <br>
+  <sub>Dibuat dengan ❤️ untuk kemajuan penelitian.</sub>
+</div>
