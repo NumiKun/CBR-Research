@@ -34,7 +34,7 @@ Berikut adalah panduan struktur utama dalam repositori ini agar Anda mudah berna
 - 📊 **`hasil_testing.csv`** *(Generated)* — File ekspor detail prediksi SVM dan CBR terhadap `datatesting.xlsx`.
 
 ### 🛠️ File Utama (dalam `Program/`)
-- 📓 **`CBR_Research_Clean.ipynb`** — *Jupyter Notebook utama yang mencakup seluruh alur eksperimen: EDA, encoding, augmentasi, pemodelan SVM & CBR, evaluasi LOO-CV, pengujian eksternal pada `datatesting.xlsx`, dan ekspor hasil ke `hasil_testing.csv`.*
+- 📓 **`research_implementation.ipynb`** — *Jupyter Notebook utama yang mencakup seluruh alur eksperimen: EDA, encoding, augmentasi, pemodelan SVM & CBR, evaluasi LOO-CV, pengujian eksternal pada `datatesting.xlsx`, dan ekspor hasil ke `hasil_testing.csv`.*
 - 🐍 **`augmentasi_random_deletion.py`** — *Skrip Python terdedikasi untuk teknik augmentasi data (Metode Random Deletion).*
 
 ---
@@ -59,7 +59,7 @@ python augmentasi_random_deletion.py
 ### 3. Eksplorasi Eksperimen
 Buka Jupyter Notebook untuk berinteraksi langsung dengan data dan melihat hasil pemodelan:
 ```bash
-jupyter notebook Program/CBR_Research_Clean.ipynb
+jupyter notebook Program/research_implementation.ipynb
 ```
 *(atau jalankan melalui VS Code / Jupyter Lab)*
 
