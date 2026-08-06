@@ -1,2 +1,6 @@
 Paper Sumber/
 
+# Ignore all files in Dataset directory except dataset.xlsx and datatesting.xlsx
+Dataset/*
+!Dataset/dataset.xlsx
+!Dataset/datatesting.xlsx
