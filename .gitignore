@@ -4,3 +4,10 @@ Paper Sumber/
 Dataset/*
 !Dataset/dataset.xlsx
 !Dataset/datatesting.xlsx
+
+# Ignore all files in Program directory except 
+Program/*
+!Program/research_implementation.ipynb
+!Program/augmentasi_random_deletion.py
+
+researchflow_narasi.md
